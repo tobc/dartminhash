@@ -261,6 +261,6 @@ void measure_similarity() {
 
 int main() {
 	// time_performance();
-	// time_performance_specific();
-	measure_similarity();
+	time_performance_specific();
+	// measure_similarity();
 }
