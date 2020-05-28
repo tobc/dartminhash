@@ -2,11 +2,13 @@
 
 This repository contains experiments for comparing the estimation accuracy and running times of the following weighted minwise hashing algorithms:
 
-* DartMinHash 
+* DartMinHash https://arxiv.org/abs/2005.11547 
 * ICWS and FastICWS https://research.google/pubs/pub36928/
 * BagMinHash https://arxiv.org/abs/1802.03914
 
 For BagMinHash and ICWS we use the implementation from here https://github.com/oertl/bagminhash with the relevant files included in the /bagminhash folder.
+
+See the DartMinHash paper https://arxiv.org/abs/2005.11547 for a description of the algorithm and further results of experiments.
 
 ## Requirements
 The BagMinHash algorithm uses XXHash64 which must be installed:
