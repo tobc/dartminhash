@@ -10,6 +10,12 @@ For BagMinHash and ICWS we use the implementation from here https://github.com/o
 
 See the DartMinHash paper https://arxiv.org/abs/2005.11547 for a description of the algorithm and further results of experiments.
 
+## Applications and implementations in other programming languages
+
+Weighted MinHash can be used to compute the [UniFrac](https://en.wikipedia.org/wiki/UniFrac) measure of dissimilarity between biological communities.
+
+The [DartUnitFrac](https://github.com/jianshu93/DartUniFrac) project uses an implementation of DartMinHash in Rust [dartminhash-rs](https://github.com/jianshu93/dartminhash-rs) for efficient UniFrac calculation.
+
 ## Requirements
 The BagMinHash algorithm uses XXHash64 which must be installed:
 
